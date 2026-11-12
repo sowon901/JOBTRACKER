@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import java.time.LocalDateTime;
 
+/** 채용 공고의 회사명, 제목, 출처, 마감일 등 저장 필드를 나타낸다. */
 @Entity
 @Table(name = "job_postings")
 public class JobPosting {
