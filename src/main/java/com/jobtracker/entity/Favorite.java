@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 import java.time.LocalDateTime;
 
+/** 사용자가 저장한 채용 공고와 저장 시각을 나타낸다. */
 @Entity
 @Table(name = "favorites", uniqueConstraints = {
         @UniqueConstraint(name = "uk_favorites_job_posting_id", columnNames = "job_posting_id")
