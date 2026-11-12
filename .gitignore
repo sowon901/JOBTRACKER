@@ -37,3 +37,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Codex temporary task files
+codex-task.md
+JOBTRACKER_README.md
